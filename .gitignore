@@ -1,26 +1,25 @@
 # User Requested Ignore (Sensitive Firebase API credentials)
-flutter_application_lec_04/lib/firebase_options.dart
+lib/firebase_options.dart
 
 # Firebase Config Files (Prevent exposure of project API keys & IDs)
-flutter_application_lec_04/android/app/google-services.json
-flutter_application_lec_04/ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+ios/Runner/GoogleService-Info.plist
 
 # Local developer configuration (User-specific local SDK paths)
-flutter_application_lec_04/android/local.properties
+android/local.properties
 
 # Android release signing keys and configurations
-flutter_application_lec_04/android/key.properties
+android/key.properties
 *.keystore
 *.jks
 
 # Local environment variables
 .env
 .env.*
-flutter_application_lec_04/.env
-flutter_application_lec_04/.env.*
 
-# Generated PDFs
+# Generated PDFs / scripts
 generated_pdfs/
+generate_pdfs.py
 
 # IDE configurations
 .idea/
@@ -28,13 +27,11 @@ generated_pdfs/
 .vscode/
 
 # Flutter application specific ignores
-flutter_application_lec_04/.dart_tool/
-flutter_application_lec_04/.flutter-plugins
-flutter_application_lec_04/.flutter-plugins-dependencies
-flutter_application_lec_04/.packages
-flutter_application_lec_04/.pub-cache/
-flutter_application_lec_04/.pub/
-flutter_application_lec_04/build/
-flutter_application_lec_04/.vscode/
-flutter_application_lec_04/*.iml
-flutter_application_lec_04/.idea/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+build/
+
